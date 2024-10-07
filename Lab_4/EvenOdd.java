@@ -7,7 +7,6 @@ public class EvenOdd {
     EvenOdd(String college){
         this.college = college;
     }
-
     public static String evenChecker(int number)
     {
         if(number%2==0)
@@ -15,7 +14,6 @@ public class EvenOdd {
         else
             return "Odd";
     }
-
     public static void main (String [] args){
        EvenOdd obj = new EvenOdd("FCIS");
        Scanner scanner = new Scanner(System.in);
@@ -25,7 +23,5 @@ public class EvenOdd {
 
        System.out.println(result);
        System.out.println(obj.college);
-
-
     }
 }
